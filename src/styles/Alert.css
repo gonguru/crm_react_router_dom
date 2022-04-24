@@ -1,0 +1,4 @@
+.text-red-500 + input,.text-red-500 + textarea{
+    border: 2px solid red;
+    border-radius: 12px;
+}

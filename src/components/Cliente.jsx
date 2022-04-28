@@ -11,7 +11,7 @@ const Cliente = ({ setCliente, clientes, setClientes, cliente, setmodalIsVisible
       try {
         const eliminar = confirm('¿Deseas eliminar el cliente?')
         if(eliminar) {
-          const url = `http://localhost:4000/clientes/${id}`
+          const url = `${import.meta.env.VITE_API_URL}/clientes/${id}`
           const response = await fetch(url, {
             method: 'DELETE'
           })

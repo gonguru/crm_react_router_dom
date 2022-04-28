@@ -1,20 +1,12 @@
 {
   "clientes": [
     {
-      "nombre": "Paulina",
-      "empresa": "Paulina constucciones",
-      "email": "correo@correo.com",
-      "telefono": "3109090920",
-      "notas": "Vacio\n",
-      "id": 10
-    },
-    {
       "nombre": "Bryan Iván Góngora Martínez",
       "empresa": "Gogo Tech",
       "email": "bgongora@protonmail.com",
       "telefono": "3310857314",
-      "notas": "Estas son algunas notas",
-      "id": 11
+      "notas": ";)",
+      "id": 1
     }
   ]
 }

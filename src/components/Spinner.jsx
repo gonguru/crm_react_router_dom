@@ -2,7 +2,10 @@ import '../styles/Spinner.css'
 
 const Spinner = () => {
   return (
-    <div className="spinner"></div>
+    <>
+      <p className='mt-10 text-center text-blue-900 font-thin text-3xl'>Cargando...</p>
+      <div className="spinner"></div>
+    </>
   )
 }
 
